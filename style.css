@@ -178,3 +178,33 @@ main{
     
     
 }
+
+footer{
+    .endti{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            transform: rotatez(346deg);
+            text-decoration: underline;
+            color: red;
+        
+            a{
+                color: aliceblue;
+                transform: rotatez(355deg);
+                font-size: 30px;
+                text-decoration: none;
+            }
+        }
+        
+        ul{
+            margin-top: 20px;
+            display:flex;
+            gap: 20px;
+            li{
+                list-style: none;
+            }
+        }
+    }
+}
