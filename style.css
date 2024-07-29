@@ -187,7 +187,7 @@ footer{
         align-items: center;
         h1{
             transform: rotatez(346deg);
-            text-decoration: underline;
+            text-decoration: underline double;
             color: red;
         
             a{
@@ -206,5 +206,51 @@ footer{
                 list-style: none;
             }
         }
+    }
+}
+
+
+@media (max-width: 480px) {
+   
+    header h1 {
+        font-size: 24px;
+    }
+    main .hero .title h2 {
+        font-size: 36px;
+    }
+    main .hero .title p {
+        font-size: 20px;
+    width: 100%; 
+    text-align: center;
+    margin: 0 auto; 
+    }
+    main .hero .title button {
+        font-size: 18px;
+    }
+    main .hero .title {
+        width: 100%;
+        text-align: center;
+    }
+    main .hero img {
+        width: 100%;
+        max-width: 300px; 
+    }
+    main .skills h2, main .project h2 {
+        font-size: 36px;
+    }
+    main .skills {
+        background-size: cover;
+        background-position: center;
+    }
+    main .skills .item, main .project .item {
+        width: 100%;
+        padding-top: 20px;
+        height: auto;
+    }
+    main .skills .item img, main .project .item img {
+        width: 40px;
+    }
+    main .skills .item h1, main .project .item h1 {
+        font-size: 24px;
     }
 }
