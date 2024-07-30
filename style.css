@@ -211,7 +211,9 @@ footer{
 
 
 @media (max-width: 480px) {
-   
+   .hero{
+    flex-direction: column-reverse;
+   }
     header h1 {
         font-size: 24px;
     }
