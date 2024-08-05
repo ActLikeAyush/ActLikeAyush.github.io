@@ -16,6 +16,34 @@ header{
        
         
     }
+
+
+    a{
+        
+        i{
+            color: yellow; 
+            h2{
+                visibility: hidden;
+                color: aliceblue;
+                font-size: 15px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                transition: opacity 2s ease-in-out;
+            }
+        }
+        i:hover{
+            transform: scale(1.2);
+            font-weight: 900; 
+            h2{
+                transform: scale(1);
+                visibility: visible;
+                font-weight: 100;
+                opacity: 1;
+                
+            }
+        }
+        
+    }
+    
     h1{
         font-size: 30px;
         transform: rotatez(355deg);
@@ -185,6 +213,32 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        a{
+        
+            i{
+                color: yellow; 
+                h2{
+                    visibility: hidden;
+                    color: aliceblue;
+                    font-size: 15px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    transition: opacity 2s ease-in-out;
+                }
+            }
+            i:hover{
+                transform: scale(1.2);
+                font-weight: 900; 
+                h2{
+                    transform: scale(1);
+                    visibility: visible;
+                    font-weight: 100;
+                    opacity: 1;
+                    
+                }
+            }
+            
+        }
+        
         h1{
             transform: rotatez(346deg);
             text-decoration: underline double;
