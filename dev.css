@@ -78,6 +78,34 @@ body{
             }
         }
     }
+    .cmd{
+        width: 700px;
+        height: 300px;
+        /* background-color: yellow; */
+        display: flex;
+        /* align-items: center; */
+        justify-content: flex-start;
+        span{
+            margin-top: 10px;
+            font-size: 20px;
+            i{
+                color: goldenrod;
+                input{
+                    font-size: 20px;
+                    background-color:transparent; 
+                    border: none;
+                    outline: none;
+                    width: 400px;
+                    input::placeholder{
+                        color: black;
+                    }
+                }
+            }
+        }
+        #cmdd{
+            display: none;
+        }
+    }
 }
 
 /* 
