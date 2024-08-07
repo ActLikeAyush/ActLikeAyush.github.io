@@ -78,9 +78,15 @@ body{
             }
         }
     }
+    .cmdout{
+        color: white;
+        max-height: 300px;
+        overflow-y: auto;
+        font-weight: 500;
+    }
     .cmd{
         width: 700px;
-        height: 300px;
+        height: 339px;
         /* background-color: yellow; */
         display: flex;
         /* align-items: center; */
