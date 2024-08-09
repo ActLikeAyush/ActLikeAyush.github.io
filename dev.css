@@ -1,7 +1,7 @@
 body{
     background-image: url('img/developermode.jpg');
     background-image: cover;
-}
+} 
 .body{
     margin-top: 150px;
     display: flex;
@@ -129,3 +129,117 @@ body{
     bottom: 50px;
     left: 50px;
 } */
+
+
+
+
+/* skills css */
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    .skil{
+        .ran{
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        height: 15px;
+        max-height: 15px;
+        width: 700px;
+        background-color: rgb(59, 59, 55);
+        .html{
+            width: 560px;
+            height: 15px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(0, 179, 255);
+        }
+        .css{
+            width: 595px;
+            height: 15px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(0, 179, 255);
+        }
+        .js{
+            width: 490px;
+            height: 15px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(0, 179, 255);
+        }
+        .java{
+            width: 504px;
+            height: 15px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(0, 179, 255);
+        
+        }
+        .sql{
+            width: 595px;
+            height: 15px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(0, 179, 255);
+        }
+        }
+
+        
+        .icon{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            i{
+                font-size: 20px;
+            }
+            h1{
+                font-size: 20px;
+            }
+            /* #ht{
+                color: yellow;
+            }
+            #css{
+                color: blue ;
+            }
+            #js{
+                color: yellow;
+            }
+            #java{
+                
+                color: aquamarine;
+            } */
+            #sql{
+                font-size: 20px;
+            }
+            
+
+        }
+        
+       
+    }
+}
+
+
+/* contact css  */
+
+.mail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: rgb(145, 110, 110);
+    }
+}
