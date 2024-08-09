@@ -46,15 +46,14 @@ function cmmdd(event) {
 
 
         output.innerHTML += `
-        
-    <div class="cont">
+            <div class="cont">
         <div class="skil">
             <div class="icon">
                 <i id="ht" class="fa-brands fa-html5">  HTML</i>
                 <h1>80%</h1>
             </div>
             <div class="ran">
-                <div class="html"></div>
+                <div class="skill-bar" style="width: 0;"></div>
             </div>
         </div>
         <div class="skil">
@@ -62,8 +61,8 @@ function cmmdd(event) {
                 <i id="css" class="fa-brands fa-css3-alt">  CSS</i>
                 <h1>85%</h1>
             </div>
-            <div  class="ran">
-                <div  class="css"></div>
+            <div class="ran">
+                <div class="skill-bar" style="width: 0;"></div>
             </div>
         </div>
         <div class="skil">
@@ -71,8 +70,8 @@ function cmmdd(event) {
                 <i id="js" class="fa-brands fa-js">  JavaScript</i>
                 <h1>70%</h1>
             </div>
-            <div  class="ran">
-                <div class="js"></div>
+            <div class="ran">
+                <div class="skill-bar" style="width: 0;"></div>
             </div>
         </div>
         <div class="skil">
@@ -80,23 +79,34 @@ function cmmdd(event) {
                 <i id="java" class="fa-brands fa-java">  Java</i>
                 <h1>72%</h1>
             </div>
-            <div  class="ran">
-                <div class="java"></div>
+            <div class="ran">
+                <div class="skill-bar" style="width: 0;"></div>
             </div>
         </div>
         <div class="skil">
             <div class="icon">
-                <i id="sql" class="fa-solid fa-database">  mysql</i>
+                <i id="sql" class="fa-solid fa-database">  MySQL</i>
                 <h1>85%</h1>
             </div>
-            <div  class="ran">
-                <div class="sql"></div>
+            <div class="ran">
+                <div class="skill-bar" style="width: 0;"></div>
             </div>
         </div>
     </div>
+    `;
 
+    // Trigger the animation after adding the HTML
+    setTimeout(() => {
+        const skillBars = document.querySelectorAll('.skill-bar');
+        skillBars[0].style.width = '80%'; // HTML
+        skillBars[1].style.width = '85%'; // CSS
+        skillBars[2].style.width = '70%'; // JavaScript
+        skillBars[3].style.width = '72%'; // Java
+        skillBars[4].style.width = '85%'; // MySQL
+    }, 0);
         
-        `
+        
+
 
 
 
@@ -110,7 +120,7 @@ function cmmdd(event) {
     }
 
     else if(first=='contact'){
-        output.innerHTML=`
+        output.innerHTML+=`
           <div class="mail">
         <a href="https://www.linkedin.com/in/ayush-pathak-319094241/">Linkedin : Ayush Pathak</a>
     <a href="https://github.com/ActLikeAyush">GitHub : Ayush Pathak</a>
